@@ -24,7 +24,30 @@ I have made a very simple integrity monitor to demonstrate a basic use of hash v
 
 This project is intended for educational and testing purposes. Any misuse or misconfiguration of this code should not be held liable against me.
 While this program can not directly affect your files, it could cause potential issues with some testing environment if other integrity monitor systems are ative. Use at your own discretion.
+Another thing to mention is that, this project was mainly developed for linux structure however it could also be used in windows too. If you chose to use it on windows, change the path to an appropriate windows path.
 
+# Getting Started
+
+## Prerequisites
+- Python 3.8+
+- Git
+
+## Git Installation
+Download the git installer from [Git](https://git-scm.com/downloads) follow the installation steps to install git on your device. If you are using linux, use the following inside terminal:
+```
+git --version 
+```
+If the output shows git with a version, then skip Git installation section as you already have git installed
+
+If git was not installed, do the following
+```
+sudo apt-update; sudo apt-get install git - y
+```
+# Cloning this repository
+Use the following command to clone this repository
+```
+git clone https://github.com/kasra-sal/File-Integrity-Monitor.git
+```
 
 # Quick Demo
 
