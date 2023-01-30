@@ -43,7 +43,7 @@ If the output shows git with a version, then skip Git installation section as yo
 
 If git was not installed, do the following
 ```
-sudo apt-update; sudo apt-get install git - y
+sudo apt-get update; sudo apt-get install git - y
 ```
 ## Cloning this repository
 Use the following command to clone this repository
