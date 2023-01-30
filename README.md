@@ -5,6 +5,7 @@ The goal of this project is to get a better understanding of how hash values wor
 The target of this project is to demonstrate one of axis of CIA triad, Integrity. 
 
 I have made a very simple integrity monitor to demonstrate a basic use of hash values and how we could leverage hash digests to monitor the integrity of our files.
+The hash used is SHA512, this is because it is more secure than sha1, md5 and some other hashing algorithms. However you could replace the SHA512 with any other hashing algorithm supported by hashlib and it should work without any issues.
 
 ## Libraries used
 
